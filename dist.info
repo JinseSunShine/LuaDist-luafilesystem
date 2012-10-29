@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 
 name = "luafilesystem"
-version = "1.5"
+version = "1.6.2"
 
 desc = "File System Library for the Lua Programming Language"
 author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
