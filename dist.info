@@ -1,0 +1,36 @@
+author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
+name = "luafilesystem"
+license = "Kepler"
+desc = "File System Library for the Lua Programming Language"
+arch = "Debian"
+maintainer = "Peter Drahoš"
+files = {
+Test = {
+[[share/luafilesystem/test//test.lua]],
+}
+,
+Runtime = {
+[[lib/lua/lfs.so]],
+}
+,
+Data = {
+[[share/luafilesystem/README]],
+}
+,
+Documentation = {
+[[share/luafilesystem/doc//us/examples.html]],
+[[share/luafilesystem/doc//us/license.html]],
+[[share/luafilesystem/doc//us/luafilesystem.png]],
+[[share/luafilesystem/doc//us/manual.html]],
+[[share/luafilesystem/doc//us/index.html]],
+}
+,
+}
+
+version = "1.6.2"
+url = "http://www.keplerproject.org/luafilesystem/"
+depends = {
+[[lua >= 5.1]],
+}
+
+type = "i686"
