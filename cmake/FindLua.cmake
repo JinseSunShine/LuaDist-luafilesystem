@@ -97,6 +97,8 @@ IF(LUA_LIBRARY)
   ELSE(UNIX AND NOT APPLE)
     SET( LUA_LIBRARIES "${LUA_LIBRARY}" CACHE STRING "Lua Libraries")
   ENDIF(UNIX AND NOT APPLE)
+ELSE(LUA_LIBRARY)
+  message("@@@@@@@@@@@@@@@@@@@")
 ENDIF(LUA_LIBRARY)
 
 # Determine Lua version
